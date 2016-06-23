@@ -6,7 +6,7 @@ body {
   font-family: "Hiragino Sans";
   color: #CCB032;
   background-color: #FFF8D8;
-  text-align: center;
+  text-align: left;
 }
 
 h6 {
@@ -17,9 +17,11 @@ h6 {
 }
 
 h2 {
+  margin-top: 4cm;
+  margin-right: 4.3cm;
   font-family: "Hiragino Sans";
   color: #CCB032;
-  text-align: center;
+  text-align: right;
 }
 
 img {
