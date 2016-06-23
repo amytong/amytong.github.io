@@ -4,14 +4,21 @@ head {
 
 body {
   font-family: "Hiragino Sans";
-  color: #52A140;
-  background-color: #F3FFF0;
+  color: #CCB032;
+  background-color: #FFF8D8;
+  text-align: center;
+}
+
+h6 {
+  margin-top: 2cm;
+  font-family: "Hiragino Sans";
+  color: #CCB032;
   text-align: center;
 }
 
 h2 {
   font-family: "Hiragino Sans";
-  color: #52A140;
+  color: #CCB032;
   text-align: center;
 }
 
@@ -28,6 +35,36 @@ img {
   cursor: hand;
 }*/
 
-a {
-  text-decoration: none;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 0.5;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
