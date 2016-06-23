@@ -6,21 +6,38 @@ body {
   font-family: "Hiragino Sans";
   color: #CCB032;
   background-color: #FFF8D8;
-  text-align: center;
+  text-align: left;
 }
 
-h6 {
-  margin-top: 2cm;
-  font-family: "Hiragino Sans";
-  color: #CCB032;
-  text-align: center;
+h1 {
+  text-align: right;
 }
 
 h2 {
   font-family: "Hiragino Sans";
   color: #CCB032;
-  text-align: center;
+  text-align: right;
 }
+
+h3 {
+  text-align: right;
+}
+
+h4 {
+  text-align: right;
+}
+
+h5 {
+  text-align: right;
+}
+
+h6 {
+  font-family: "Hiragino Sans";
+  color: #CCB032;
+  text-align: right;
+}
+
+
 
 img {
   text-align: center;
@@ -30,34 +47,12 @@ img {
 
 
 
-.foo img:last-child{display:none}
-.foo:hover img:first-child{display:none}
-.foo:hover img:last-child{display:inline-block}
 
 
 
 
 
 
-
-
-
-
-
-
-
- 
-
-
-
-
-
-/*img:hover {
-  opacity: 1.0;
-  filter: alpha(opacity=100);  For IE8 and earlier 
-  cursor: pointer;
-  cursor: hand;
-}*/
 
 ul {
     list-style-type: none;
