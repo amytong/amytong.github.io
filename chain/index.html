@@ -11,9 +11,26 @@
           <li>Contact</li>
         </ul>
     </div> -->
-    <h1>
-      Hi, I'm Amy.
-    </h1>
+    <head>
+      <script src="jquery-3.0.0.min.js"></script>
+      <script type="text/javascript" src="javascript/jquery-3.0.0.min.js">
+        $(document).ready(function() {
+
+          $('a').on('click touchend', function(e) {
+          var el = $(this);
+          var link = el.attr('href');
+          window.location = link;
+          });
+
+        });
+
+      </script>
+ 
+
+      <h1>
+        Hi, I'm Amy.
+      </h1>
+    </head>
     <body>
       <p>
         I'm part of the back-to-back NCAA champion Columbia fencing team, but running has never been part of my training regimen. That ends this summer. I'm trying to run every day (if even for a mile, ha)! Please do yell at me over any kind of messaging medium if I'm not keeping up with it. This is called "chain" because of the "Don't Break The Chain" thing that totally works for my addictive personality.
