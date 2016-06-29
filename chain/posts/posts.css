@@ -43,10 +43,8 @@ img {
   text-align: center;
   opacity: 1.0;
   filter: alpha(opacity=100); /* For IE8 and earlier */
+  float: right; margin: 0px 15px 15px 15px;
 }
-
-
-
 
 
 
