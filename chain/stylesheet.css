@@ -21,10 +21,11 @@ h2 {
   margin-right: 4.3cm;
   font-family: "Hiragino Sans";
   color: #CCB032;
-  text-align: right;
+  text-align: left;
 }
 
 img {
+  margin-top: 4cm;
   text-align: center;
   opacity: 1.0;
   filter: alpha(opacity=100); /* For IE8 and earlier */
@@ -38,15 +39,33 @@ img {
 
 
 
+h3 {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/*
+#textbox {
+  float: left;
+}*/
 
 
+.alignleft {
+  float: left;
+  display: block;
+}
 
+.alignright {
+  float: right;
+  display: block;
+}
 
-
-
- 
-
-
+p {
+  display: block;
+}
 
 
 
